@@ -26,7 +26,6 @@ The project also compares multiple machine learning algorithms and selects the b
 ### Machine Learning Models
 
 The project implements and compares:
-
 1. Logistic Regression
 2. Decision Tree Classifier
 3. Random Forest Classifier
@@ -34,7 +33,6 @@ The project implements and compares:
 ### Financial Features Used
 
 The model uses the following customer attributes:
-
 * Age
 * Income
 * Debt
@@ -53,9 +51,7 @@ The model uses the following customer attributes:
 A custom financial risk feature is created:
 
 Debt-To-Income Ratio
-
 DebtToIncomeRatio = Debt / Income
-
 This ratio is widely used in the financial industry to measure repayment capability.
 
 ---
@@ -63,7 +59,6 @@ This ratio is widely used in the financial industry to measure repayment capabil
 ## 📊 Evaluation Metrics
 
 The models are evaluated using:
-
 * Accuracy
 * Precision
 * Recall
@@ -81,7 +76,6 @@ The Streamlit dashboard contains three major sections:
 ### 1. Model Overview Dashboard
 
 Displays:
-
 * Algorithm comparison table
 * Accuracy
 * Precision
@@ -93,7 +87,6 @@ Displays:
 ### 2. Credit Prediction Dashboard
 
 Allows users to:
-
 * Enter customer financial information
 * Predict creditworthiness
 * View approval probability
@@ -102,7 +95,6 @@ Allows users to:
 ### 3. Analytics Dashboard
 
 Provides:
-
 * Feature importance visualization
 * Dataset preview
 * Statistical summary
@@ -127,37 +119,25 @@ Credit_Scoring_Model/
 ## ⚙️ Technologies Used
 
 ### Programming Language
-
 * Python
 
 ### Machine Learning
-
 * Scikit-Learn
 
 ### Data Processing
-
 * Pandas
 * NumPy
 
 ### Data Visualization
-
 * Matplotlib
 
 ### Web Dashboard
-
 * Streamlit
 
 ---
 
 ## 🔧 Installation
-
 Clone the repository:
-
-```bash
-git clone https://github.com/your-username/Credit_Scoring_Model.git
-cd Credit_Scoring_Model
-```
-
 Install required dependencies:
 
 ```bash
@@ -268,10 +248,4 @@ This project demonstrates:
 * Interactive Dashboard Development
 * End-to-End ML Project Deployment
 
----
-
-## 📄 License
-
-This project is developed for educational, internship, and learning purposes.
-.
 
